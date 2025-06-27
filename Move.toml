@@ -1,0 +1,17 @@
+[package]
+name = "raffle_move"
+version = "1.0.0"
+authors = []
+
+[addresses]
+raffle_addr = "229b2d468a3505e9883710aa6d770491be85d5d3388fa70846cd0d6124f53892"
+
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
