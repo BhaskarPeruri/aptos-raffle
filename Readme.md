@@ -92,19 +92,19 @@ get_ticket_price(): Returns the current ticket price (10,000 octas)
 aptos move compile
 ```
 
-## test
+## Test
 
 ```
 aptos move test
 ```
 
-## test coverage
+## Test coverage
 
 ```
 aptos move test --coverage
 ```
 
-## for specific module coverage
+## For specific module coverage
 
 ```
 aptos move coverage source --module <MODULE_NAME>
